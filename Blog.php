@@ -141,8 +141,8 @@
 
 							?></span>
 					<hr>
-					<p class="card-text"><?php if (strlen($PostText)>150) {
-				 		$PostText = substr($PostText,0,150).'...';} echo htmlentities($PostText) ; ?></p>
+					<p class="card-text"><?php if (strlen ($PostText)>150) {
+				 		$PostText = substr($PostText,0,150).'...';} echo  nl2br($PostText) ; ?></p>
 					<a href="FullPost.php?id=<?php echo $PostId;?>" style="float:right;">
 						<span class="btn btn-info">Read More >></span>
 

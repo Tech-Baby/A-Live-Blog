@@ -42,10 +42,10 @@ if(isset($_POST["Submit"])){
 
    if ($Execute) {
       $_SESSION["SuccessMessage"]= "Post Updated successfully";
-    Redirect_to("Posts.php");
+    Redirect_to("Posts.php?page=1");
    }else{
      $_SESSION["ErrorMessage"]= "Something went wrong.Try Again";
-    Redirect_to("Posts.php");
+    Redirect_to("Posts.php?page=1");
    }
 
 

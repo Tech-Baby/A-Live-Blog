@@ -108,7 +108,7 @@
 
        ?>
 
-			<table class="table table striped table-hover">
+			<table class="table table striped table-hover mt-4">
 				<thead class="thead-dark">
 				<tr>
 					<th>#</th>
@@ -290,7 +290,16 @@
 </section>
 <!-- FOOTER
  -->
-<footer class="bg-dark text-white">
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+<footer class="bg-dark text-white ">
 	<div class="container">
 		<div class="row">
 			<div class="col">
